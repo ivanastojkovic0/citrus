@@ -5,6 +5,7 @@ namespace Admin\Src\Repository;
 use Lib\Db;
 
 class CommentsService {
+
     private $db;
 
     public function __construct()

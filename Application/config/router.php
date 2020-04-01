@@ -37,6 +37,5 @@ return [
             'controller' => AdminIndex::class,
             'action' => 'changeCommentStatus'
         ],
-
     ]
 ];

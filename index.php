@@ -25,6 +25,7 @@ $folderName = strtolower(substr($className, 0, strripos($className, "Controller"
 if(!empty($id)) {
     $route->setId($id);
 }
+
 if (!empty($action)) {
     $actionMethod = $action . "Action";
     $params = $route->$actionMethod();

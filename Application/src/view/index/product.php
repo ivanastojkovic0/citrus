@@ -60,6 +60,5 @@ if(!empty($params)) {
     } else { ?>
         <h3>Product not found.</h3>
    <?php }
-}?>
-
+} ?>
 <?php include(__DIR__ . "/../partials/footer.php"); ?>

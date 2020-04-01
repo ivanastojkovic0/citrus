@@ -65,4 +65,5 @@ class IndexController {
         }
         return new View(['status' => $response]);
     }
+
 }

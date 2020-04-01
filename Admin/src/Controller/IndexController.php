@@ -1,6 +1,7 @@
 <?php
 
 namespace Admin\Src\Controller;
+
 use Admin\Src\Repository\CommentsService;
 use Admin\Src\Repository\UserService;
 use Application\Src\Helper\View;
@@ -73,4 +74,5 @@ class IndexController {
         echo json_encode(['status' => $comments]);
         exit();
     }
+
 }

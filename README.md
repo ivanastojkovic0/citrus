@@ -5,9 +5,9 @@ Mysql 5.7.17
 
 Requirements:
 
-Extension pdo_mysql
-Enable mod_rewrite
-Virtual host
+Extension pdo_mysql, 
+Enable mod_rewrite, 
+Virtual host, 
 Composer
 
 Guide:
@@ -16,7 +16,6 @@ Home page:
 /index/
 
 Admin panel:
-
 /adminpanel/
 username: admin
 password: admin123

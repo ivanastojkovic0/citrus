@@ -15,4 +15,5 @@ class View
     public function getParams() {
         return $this->params;
     }
+
 }

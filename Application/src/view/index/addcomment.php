@@ -9,5 +9,4 @@ if(!empty($params)) {
     }
 
 } ?>
-
 <?php include(__DIR__ . "/../partials/footer.php"); ?>

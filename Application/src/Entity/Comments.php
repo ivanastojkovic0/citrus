@@ -90,5 +90,4 @@ class Comments {
         $this->product_id = $product_id;
     }
 
-
 }
