@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# css, js escape
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteRule ^([^/]*)/([^/]*)$ /index.php?controller=$1&id=$2 [L]
+
+ErrorDocument 404 /Application/src/view/error/404.php

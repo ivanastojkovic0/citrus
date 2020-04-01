@@ -1,0 +1,8 @@
+{
+  "autoload": {
+    "classmap": ["lib/", "Admin/src/", "Application/src/"]
+  },
+  "require": {
+    "symfony/yaml": "^4.4"
+  }
+}
